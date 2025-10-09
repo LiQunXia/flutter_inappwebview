@@ -26,10 +26,11 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'com.pichillilorenzo.flutter_inappwebview_android'
     }
-    compileSdkVersion 33
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 19
+        targetSdkVersion 35
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         vectorDrawables.useSupportLibrary = true
